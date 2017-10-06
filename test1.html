@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html><head>
+<style>
+ html, body {
+padding: 0;
+ margin: 0;
+ }
+
+/*
+
+Specify background color of your slide
+
+*/
+
+body {
+background-color: #3c5a76;
+}
+/*
+
+Centering horizontally and vertically:
+
+https://css-tricks.com/centering-css-complete-guide/
+
+*/
+
+#slide-pic {
+position: absolute;
+ display: block;
+ top: 50%;
+
+-ms-transform: translate(-50%, -50%);
+
+-webkit-transform: translate(-50%, -50%);
+
+transform: translate(-50%, -50%);
+
+left: 50%;
+ max-width: 100%;
+ max-height: 100%;
+}
+</style>
+</head>
+<body>
+
+<!--
+
+Add URL to slide location
+
+-->
+
+<img id="slide-pic" src="http://downloads.esri.com/agol/blog/ppt-slide2.jpg">
+
+</body>
+
+</html>
